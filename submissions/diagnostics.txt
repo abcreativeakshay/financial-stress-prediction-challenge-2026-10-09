@@ -1,0 +1,40 @@
+FINANCIAL STRESS CHALLENGE - VALIDATION DIAGNOSTICS
+============================================================
+Run: 2026-11-01. Script: src/validate_diagnostics.py
+(Note: full 5-fold adversarial run was cut to fold-0 + killed rerun under
+heavy VM contention from concurrent training agents; conclusions below rest
+on verified outputs.)
+
+1. ADVERSARIAL VALIDATION (LightGBM train-vs-test classifier, 70k rows x 182 feats)
+   - Fold-0 AUC = 0.5063, best_iter = 1 (model stopped at the first tree:
+     it found NO signal separating train from test rows).
+   - Conclusion: train and test are essentially indistinguishable. No
+     covariate shift detected. Stratified K-fold CV is trustworthy and CV
+     gains should transfer to the leaderboard. No test-weighted validation
+     or drifted-feature removal needed.
+
+2. TIME STRUCTURE CHECK
+   - No date/reference-date/snapshot-date column exists in Train.csv or the
+     data dictionary (185 entries checked).
+   - Dictionary on m1: "Number of transactions ... in month M1, where M1 is
+     the most recent month and M6 is the oldest month." No statement of a
+     fixed calendar reference month.
+   - Dictionary on ID: "Unique row identifier for each customer snapshot
+     entry". Mentions "observation window" but no rolling-vs-fixed wording.
+   - Conclusion: INCONCLUSIVE from data alone whether M1 is a fixed calendar
+     month or a rolling per-customer window. This is moot given check 1:
+     with no train/test shift, stratified K-fold is valid either way.
+
+3. GROUP CHECK (ID uniqueness)
+   - Train: 40,000 rows, 40,000 unique IDs, 0 duplicates.
+   - Test:  30,000 rows, 30,000 unique IDs, 0 duplicates.
+   - Train/Test ID overlap: 0.
+   - Conclusion: exactly one row per customer. No GroupKFold needed.
+
+IMPLICATION FOR VALIDATION STRATEGY
+-----------------------------------
+Keep the current stratified 5-fold CV (seed 42). All three diagnostics
+support it: no shift (adv AUC ~0.5), one row per customer, and no evidence
+of time leakage requiring a time-based split. Track combined score +
+logloss + AUC per fold; optionally move to repeated 5-fold (3 repeats) to
+shrink estimate noise for small gains (calibration, seed averaging).
