@@ -29,6 +29,9 @@ the 5 fold models. OOF predictions saved for stacking/calibration.
 | LightGBM base params + 40 engineered feats + per-fold isotonic calibration | **0.25788** | **0.89720** | **0.80415** |
 | LightGBM tuned params (lr 0.03, leaves 127) + feats + isotonic | — | — | < 0.80415 |
 | XGBoost (hist, 5-fold) + feats + isotonic | 0.26079 | 0.89475 | 0.80143 |
+| LGBM + feats + OOF target encoding (region/segment/earning_pattern) + isotonic | 0.26287 | 0.89250 | 0.79928 |
+| XGBoost + one-hot categoricals + feats + isotonic | 0.26384 | 0.89201 | 0.79850 |
+| Stack: 0.55*LGBM + 0.45*XGB, per-model isotonic + blend isotonic | **0.25956** | **0.89549** | **0.80246** |
 
 \*combined = 0.6*(1−LogLoss) + 0.4*ROC-AUC (higher better).
 
@@ -49,12 +52,35 @@ the 5 fold models. OOF predictions saved for stacking/calibration.
   (note: xgboost warned `enable_categorical` unused — categoricals likely fell
   back to integer codes) both scored lower.
 - Test prediction mean 0.1520 vs train positive rate 0.1500 (well calibrated).
-- Public LB (baseline_lgbm.csv): 0.6862.
+- Public LB (baseline_lgbm.csv): 0.6862. Public LB (iter2.csv): 0.6996.
+
+### Iteration 3 details
+- **Stacking** (`src/iter3.py`): 5-fold LGBM (native categoricals) + 5-fold
+  XGBoost (one-hot categoricals) on the 216-feature set; per-fold isotonic
+  calibration per model, OOF blend weight 0.55 LGBM / 0.45 XGB chosen by
+  grid-search on calibrated OOF, plus a final isotonic fit on the blend.
+  Honest throughout: target encodings and calibration computed per fold.
+- **Target encoding** (`te_region`, `te_segment`, `te_earning_pattern`,
+  alpha=20 smoothing, fold-honest): helped LGBM logloss slightly (0.2629 vs
+  0.2676 raw) but the blend barely beat the single models — LGBM and XGB
+  OOF predictions are highly correlated (models lack diversity).
+- **Result**: CV combined 0.80246 — *below* iter2's 0.80415. Recommendation:
+  keep iter2.csv as the submission candidate; stacking as implemented did not
+  add value. Next ideas: more diverse base learners (CatBoost with native
+  categoricals, different seeds/subsamples), feature-set ablation, or
+  hyperparameter search rather than more blending.
+- Fixed a categorical `.map` bug in `target_encode` (`.astype(object)` first).
+- Environment note: VM was replaced mid-task; lightgbm/xgboost/sklearn were
+  reinstalled via pip (`--break-system-packages`, TMPDIR workaround for the
+  512MB /tmp).
 
 ## Files
 - `src/train.py` — baseline training + CV + submission generation
 - `src/iter2.py` — feature engineering + calibration + model comparison
+- `src/iter3.py` — LGBM+XGB stacking with OOF target encoding (CV 0.80246, did not beat iter2)
 - `submissions/baseline_lgbm.csv` — `ID,Target` baseline test predictions
 - `submissions/oof_baseline_lgbm.csv` — baseline out-of-fold predictions
 - `submissions/iter2.csv` — `ID,Target` iteration-2 test predictions (best)
 - `submissions/oof_iter2.csv` — iteration-2 calibrated OOF predictions
+- `submissions/iter3.csv` — `ID,Target` stacking test predictions (CV 0.80246 < iter2)
+- `submissions/oof_iter3.csv` — stacking blend calibrated OOF predictions
