@@ -1,0 +1,12 @@
+per-model OOF combined: {'lgbm': 0.8107972320026575, 'catboost': 0.8099299555369965, 'histgb': 0.8050681201525989}
+blend candidates:
+  hybrid0.3geo_cb_lgbm         LL=0.24881 AUC=0.90528 comb=0.81283
+  arith_cb0.5_lgbm0.5          LL=0.24881 AUC=0.90528 comb=0.81282
+  hybrid0.5geo_cb_lgbm         LL=0.24881 AUC=0.90525 comb=0.81282
+  hybrid0.7geo_cb_lgbm         LL=0.24882 AUC=0.90522 comb=0.81280
+  geo_cb_lgbm                  LL=0.24884 AUC=0.90520 comb=0.81278
+  arith_cb0.3_lgbm0.7          LL=0.24901 AUC=0.90508 comb=0.81263
+  arith_cb0.7_lgbm0.3          LL=0.24939 AUC=0.90483 comb=0.81230
+  geo3                         LL=0.24935 AUC=0.90476 comb=0.81230
+  nm3w_0.33_0.33_0.33          LL=0.24940 AUC=0.90475 comb=0.81226
+FINAL PICK: blend:hybrid0.3geo_cb_lgbm OOF comb=0.81283 (iter6 bar 0.8114)

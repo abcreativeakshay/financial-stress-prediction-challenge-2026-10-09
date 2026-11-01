@@ -1,0 +1,81 @@
+{
+  "pick": "blend:hybrid0.3geo_cb_lgbm",
+  "spec": {
+    "type": "hybrid",
+    "w_geo": 0.3
+  },
+  "oof_combined": 0.812825901572045,
+  "per_model": {
+    "lgbm": 0.8107972320026575,
+    "catboost": 0.8099299555369965,
+    "histgb": 0.8050681201525989
+  },
+  "blends": [
+    {
+      "name": "hybrid0.3geo_cb_lgbm",
+      "combined": 0.812825901572045,
+      "ll": 0.24880728169365038,
+      "auc": 0.9052756764705883
+    },
+    {
+      "name": "arith_cb0.5_lgbm0.5",
+      "combined": 0.812822868124059,
+      "ll": 0.24881479822460734,
+      "auc": 0.9052793676470589
+    },
+    {
+      "name": "hybrid0.5geo_cb_lgbm",
+      "combined": 0.8128158773396047,
+      "ll": 0.24880879920523402,
+      "auc": 0.9052528921568628
+    },
+    {
+      "name": "hybrid0.7geo_cb_lgbm",
+      "combined": 0.8127992758710534,
+      "ll": 0.24881588662013973,
+      "auc": 0.9052220196078431
+    },
+    {
+      "name": "geo_cb_lgbm",
+      "combined": 0.8127772150571414,
+      "ll": 0.24883778046032004,
+      "auc": 0.9051997083333334
+    },
+    {
+      "name": "arith_cb0.3_lgbm0.7",
+      "combined": 0.8126260015788542,
+      "ll": 0.24900823919864165,
+      "auc": 0.9050773627450979
+    },
+    {
+      "name": "arith_cb0.7_lgbm0.3",
+      "combined": 0.8122968372920765,
+      "ll": 0.24939406202954573,
+      "auc": 0.9048331862745098
+    },
+    {
+      "name": "geo3",
+      "combined": 0.8122952062246399,
+      "ll": 0.24934572165174396,
+      "auc": 0.9047565980392157
+    },
+    {
+      "name": "nm3w_0.33_0.33_0.33",
+      "combined": 0.8122617826706601,
+      "ll": 0.24939857953582795,
+      "auc": 0.9047523259803921
+    }
+  ],
+  "top_liq_features": [
+    "liq_runway_m3",
+    "liq_runway_m4",
+    "liq_runway_m2",
+    "liq_runway_m5",
+    "liq_arpu_x_activity",
+    "liq_total_value_div_balmean",
+    "liq_bal_drop_x_withdraw_share",
+    "liq_runway_m6",
+    "liq_runway_m1",
+    "liq_withdraw_pressure_ratio_m1"
+  ]
+}
