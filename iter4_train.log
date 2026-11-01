@@ -1,0 +1,17 @@
+n_features: 216
+config base         LL=0.25788 AUC=0.89720 comb=0.80415 mean_iter=334
+config lr_0.03      LL=0.25781 AUC=0.89771 comb=0.80439 mean_iter=423
+config lr_0.06      LL=0.25913 AUC=0.89579 comb=0.80284 mean_iter=199
+config leaves_31    LL=0.25711 AUC=0.89819 comb=0.80501 mean_iter=469
+config minchild_80  LL=0.25843 AUC=0.89665 comb=0.80360 mean_iter=307
+config featfrac_0.7 LL=0.25770 AUC=0.89707 comb=0.80421 mean_iter=310
+config featfrac_0.9 LL=0.25808 AUC=0.89671 comb=0.80384 mean_iter=298
+config l2_3.0       LL=0.25712 AUC=0.89779 comb=0.80484 mean_iter=315
+config l1_0.5       LL=0.25742 AUC=0.89786 comb=0.80469 mean_iter=322
+config nobag        LL=0.25799 AUC=0.89717 comb=0.80407 mean_iter=349
+config reg_combo    LL=0.25791 AUC=0.89691 comb=0.80402 mean_iter=327
+config smallfast    LL=0.25710 AUC=0.89805 comb=0.80496 mean_iter=429
+
+BEST: leaves_31 LL=0.25711 AUC=0.89819 comb=0.80501  (iter2 baseline: 0.80415)
+Saved submissions/iter4.csv via config 'leaves_31' (test mean 0.1521)
+EXIT: 0
