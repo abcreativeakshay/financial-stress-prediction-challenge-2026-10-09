@@ -1,0 +1,8 @@
+n_features: 216
+config smallfast    holdout LL=0.27392 AUC=0.88205 comb=0.78847 (search 5-fold=0.80496) best_iter=454
+Saved /home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/../submissions/iter4_smallfast.csv (test mean 0.1548)
+config l2_3.0       holdout LL=0.27229 AUC=0.88361 comb=0.79007 (search 5-fold=0.80484) best_iter=329
+Saved /home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/../submissions/iter4_l2_3.0.csv (test mean 0.1555)
+config l1_0.5       holdout LL=0.27085 AUC=0.88377 comb=0.79100 (search 5-fold=0.80469) best_iter=293
+Saved /home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/../submissions/iter4_l1_0.5.csv (test mean 0.1554)
+DONE
