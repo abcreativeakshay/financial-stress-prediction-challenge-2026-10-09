@@ -1,0 +1,10 @@
+# iter7 calibration bake-off (raw pooled OOF, n=40000)
+# NOTE: bake-off on oof_iter6.csv (already per-fold calibrated) was
+# degenerate -- all four calibrators converged to identity (0.81140).
+# This is the honest rerun on RAW pooled OOF.
+calibrator,logloss,auc,combined,params
+none,0.255514,0.900739,0.806987,-
+pooled_isotonic,0.253189,0.901500,0.808686,isotonic on raw pooled OOF
+beta,0.254853,0.900739,0.807384,a=0.9613,b=1.1870,c=-0.0287
+temperature,0.255431,0.900739,0.807037,T=1.0249
+winner,pooled_isotonic,,,
