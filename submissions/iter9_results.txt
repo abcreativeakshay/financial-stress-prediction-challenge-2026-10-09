@@ -1,0 +1,4 @@
+seeds: [42, 7, 2025]
+candidate A (avg of seed hybrids): 0.81472
+candidate B (hybrid of avg models): 0.81470
+FINAL: seed-avg-of-hybrids OOF comb=0.81472 (iter8 bar 0.81283)
