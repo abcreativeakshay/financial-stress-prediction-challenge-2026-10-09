@@ -1,0 +1,23 @@
+ITERATION 12 results
+bar (iter11 6-seed): 0.81514
+Stage A winner combined=0.81080 (ref 0.81080): {'learning_rate': 0.03, 'num_leaves': 31, 'min_child_samples': 40, 'feature_fraction': 0.8, 'lambda_l2': 3.0, 'lambda_l1': 0.5}
+Stage B kept 40 v2 features, best combined=0.81120
+kept_v2: v2_momentum_3m_bal, v2_netflow_div_bal_m3, v2_age_x_netflow_slope, v2_wd_pressure_m4, v2_inflow_accel, v2_netflow_div_bal_m2, v2_momentum_3m_flow, v2_drawdown_dur, v2_savings_rate, v2_m1_coverage, v2_bal_drop_rate, v2_tfb_div_inflow, v2_recv_div_dep, v2_inflow_std_div_bal, v2_conv_recent, v2_netflow_std_div_bal, v2_dep_accel, v2_conv_old, v2_outflow_diversity, v2_flow_vol, v2_runway2_m3, v2_bal_m1m2_x_wdpress, v2_inflow_diversity, v2_runway2_m1, v2_dep_m1_concentration, v2_wd_accel, v2_wd_pressure_m6, v2_outflow_accel, v2_second_max, v2_runway2_m2, v2_netflow_ewma90, v2_netflow6_div_balmean, v2_outflow6_div_balmean, v2_inflow6_div_balmean, v2_min_runway2, v2_wd_pressure_m5, v2_activity_x_wdpress, v2_runway2_m6, v2_bal_m1_div_inflow6, v2_wd_m1_concentration
+
+Stage A search (LGBM-only, seed 42, 279 feats):
+  kitchen_sink_ref: 0.81080
+  cfg11: 0.81050
+  cfg08: 0.81034
+  cfg02: 0.81028
+  cfg00: 0.80979
+  cfg09: 0.80974
+  cfg07: 0.80937
+  cfg03: 0.80935
+  cfg01: 0.80916
+  cfg04: 0.80910
+  cfg06: 0.80885
+  cfg05: 0.80665
+  cfg10: 0.80635
+
+FINAL: A_wg0.5_wl0.5 OOF comb=0.81556 BEATS 0.81514
+spec: {"blend": "A_wg0.5_wl0.5", "seeds": [42, 7, 2025, 5, 11, 777], "feats_changed": true, "lgbm_params": {"learning_rate": 0.03, "num_leaves": 31, "min_child_samples": 40, "feature_fraction": 0.8, "bagging_fraction": 0.8, "bagging_freq": 1, "lambda_l2": 3.0, "num_threads": 4, "seed": 42, "lambda_l1": 0.5}}

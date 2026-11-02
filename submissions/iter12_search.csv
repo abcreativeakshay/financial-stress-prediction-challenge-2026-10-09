@@ -1,0 +1,13 @@
+config,ll,auc,combined,mean_iter,overrides
+cfg00,0.25174216086252804,0.9020846274509804,0.8097885544628753,461.4,"{'num_leaves': 63, 'min_child_samples': 120, 'feature_fraction': 0.6, 'lambda_l1': 1.0, 'lambda_l2': 8.0, 'learning_rate': 0.03}"
+cfg01,0.25266315460581273,0.9018880612745098,0.8091573317463163,493.6,"{'num_leaves': 47, 'min_child_samples': 120, 'feature_fraction': 0.8, 'lambda_l1': 0.5, 'lambda_l2': 3.0, 'learning_rate': 0.03}"
+cfg02,0.25140122415403177,0.9027900294117647,0.8102752772722868,643.8,"{'num_leaves': 31, 'min_child_samples': 20, 'feature_fraction': 1.0, 'lambda_l1': 1.0, 'lambda_l2': 3.0, 'learning_rate': 0.03}"
+cfg03,0.25242210985658564,0.9020072818627453,0.8093496468311467,508.8,"{'num_leaves': 21, 'min_child_samples': 20, 'feature_fraction': 1.0, 'lambda_l1': 1.0, 'lambda_l2': 8.0, 'learning_rate': 0.05}"
+cfg04,0.25271437700826416,0.901825806372549,0.8091016963440611,452.0,"{'num_leaves': 21, 'min_child_samples': 80, 'feature_fraction': 0.8, 'lambda_l1': 1.0, 'lambda_l2': 3.0, 'learning_rate': 0.05}"
+cfg05,0.255250141234095,0.8994938529411763,0.8066474564360135,232.0,"{'num_leaves': 63, 'min_child_samples': 120, 'feature_fraction': 1.0, 'lambda_l1': 1.0, 'lambda_l2': 1.0, 'learning_rate': 0.05}"
+cfg06,0.252956916635946,0.9015524019607842,0.8088468108027461,485.2,"{'num_leaves': 21, 'min_child_samples': 20, 'feature_fraction': 1.0, 'lambda_l1': 2.0, 'lambda_l2': 1.0, 'learning_rate': 0.05}"
+cfg07,0.25223229560398,0.9017632598039217,0.8093659265591807,636.6,"{'num_leaves': 63, 'min_child_samples': 80, 'feature_fraction': 0.6, 'lambda_l1': 1.0, 'lambda_l2': 1.0, 'learning_rate': 0.02}"
+cfg08,0.25125593356566606,0.9027335808823529,0.8103398722135415,583.0,"{'num_leaves': 95, 'min_child_samples': 40, 'feature_fraction': 0.6, 'lambda_l1': 0.5, 'lambda_l2': 8.0, 'learning_rate': 0.02}"
+cfg09,0.25207988855416535,0.9024777867647059,0.8097431815733832,811.4,"{'num_leaves': 21, 'min_child_samples': 80, 'feature_fraction': 1.0, 'lambda_l1': 2.0, 'lambda_l2': 1.0, 'learning_rate': 0.03}"
+cfg10,0.25549226810488107,0.8991201446078431,0.8063526969802086,191.4,"{'num_leaves': 95, 'min_child_samples': 80, 'feature_fraction': 1.0, 'lambda_l1': 0.1, 'lambda_l2': 5.0, 'learning_rate': 0.05}"
+cfg11,0.2512218118029401,0.903074794117647,0.8104968305652946,629.6,"{'num_leaves': 31, 'min_child_samples': 80, 'feature_fraction': 0.8, 'lambda_l1': 0.1, 'lambda_l2': 8.0, 'learning_rate': 0.03}"
