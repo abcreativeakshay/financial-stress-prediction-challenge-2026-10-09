@@ -1,0 +1,4 @@
+seeds: [42, 7, 2025, 5, 11, 777]
+A: 0.81514
+B: 0.81511
+FINAL: seed-avg-of-hybrids-6seed 0.81514 (bar 0.81472)
