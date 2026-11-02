@@ -1,0 +1,60 @@
+ITERATION 13 (iter13) results
+bar (iter12 6-seed): 0.81556
+FINAL OOF combined=0.82116 BEATS 0.81556
+spec: {"kind": "hybrid:A_wg0.5_wl0.5", "blend": "A_wg0.5_wl0.5", "seeds": [42, 7, 2025, 5, 11, 777], "feats": 359, "v3_kept": ["v3_earlylate_inflow", "v3_earlylate_wd", "v3_bal_slope", "v3_slope_transfer_from_bank", "v3_earlylate_dp", "v3_earlylate_outflow", "v3_argmax_inflow", "v3_wd6_div_inflow6", "v3_age_x_bal_slope", "v3_act_x_inflow6", "v3_bal_drop_maxmin", "v3_tfb_div_outflow6", "v3_netflow_maxdd", "v3_slope_withdraw", "v3_bal_drop_max_m1", "v3_slope_merchantpay", "v3_slope_paybill", "v3_dp_div_wd_slope", "v3_inflow_concentration", "v3_savings_mean", "v3_act_x_netflow6", "v3_bal_quad_b", "v3_bal1_minus_outflow6avg", "v3_act_x_outflow6", "v3_mmsend_div_recv_m1", "v3_wd1_div_outflow1", "v3_tfb_div_inflow6", "v3_dp_div_wd_m1", "v3_bal1_minus_outflow1", "v3_ticket_wd_m1", "v3_dp_regularity", "v3_ticket_pb_m1", "v3_act_x_wd1", "v3_wd6_div_dp6", "v3_netflow_signflips", "v3_argmax_wd", "v3_cv_wd", "v3_cv_dp", "v3_wd1_div_dp1", "v3_wd_accel_recent"], "cb_cfg": {"depth": 6, "learning_rate": 0.03, "iterations": 2000, "l2_leaf_reg": 3.0}, "cb_changed": false, "dart": false, "lgbm": "kitchen_sink"}
+
+--- Per-idea CV table (combined = 0.6*(1-LL) + 0.4*AUC) ---
+Bar: iter12 6-seed hybrid A_wg0.5_wl0.5 = 0.81556 (public 0.70510)
+
+STAGE 1: CatBoost hyperparam tune (seed 42, 319 feats) -> REJECTED
+  ref (d6/lr0.03/it2000/l2=3): raw 0.81056, hybrid 0.81338
+  (6, l2=5):  raw 0.81038, hybrid 0.81324
+  (6, l2=8):  raw 0.81065, hybrid 0.81338
+  (8, l2=3):  raw 0.80962, hybrid 0.81296
+  (8, l2=5):  raw 0.80984, hybrid 0.81297
+  (8, l2=8):  raw 0.81016, hybrid 0.81318
+  (6, lr0.02, it2000, l2=8): raw 0.81066, hybrid 0.81327
+  (6, lr0.02, it3000,  l2=8): raw 0.81104, hybrid 0.81343  <- grid best
+  (6, lr0.03, it3000,  l2=8): killed before finish (would not change conclusion)
+  Verdict: best margin +5e-5 over ref hybrid is CV noise. Depth 8 consistently
+  worse (-0.0004). l2_leaf_reg flat. Keeping reference CatBoost config.
+
+STAGE 2: FE pass 3, v3 battery (62 candidates, LGBM seed-42, kitchen_sink) -> WON
+  baseline (319 feats): 0.81120
+  batch 0 (+20 -> 339): 0.81687 KEPT
+  batch 1 (+20 -> 359): 0.81652 dropped
+  batch 2 (+20 -> 359): 0.81695 KEPT
+  batch 3 (+2): skipped (would exceed 360 cap)
+  Kept 40 v3 features. Top: early/late ratios (inflow/wd/dp/outflow),
+  balance slope/quadratic, per-category slopes, wd ratios, activity interactions,
+  netflow max-drawdown, savings rate, ticket sizes, tfb ratios.
+  Best LGBM-only: 0.81695 (+0.00575 over baseline).
+
+STAGE 3: DART + LR stacker -> BOTH REJECTED
+  DART (800 fixed rounds, seed 42, 359 feats): 0.80980
+    vs gbdt (same feats): 0.81695 -> gbdt holds by +0.00715
+  LR stacker on 12 seed-OOF cols (honest 5-fold CV): 0.80768
+    vs plain mean-12 (0.81553) and bar (0.81556) -> rejected
+  LR stacker on FINAL 12 member OOFs: 0.81268 vs hybrid 0.82116 -> rejected
+
+STAGE 4: 6-seed LGBM+CatBoost retrain (359 feats) + blend re-tune -> WON
+  Per-seed combined (LGBM / CatBoost):
+    s42:   0.81695 / 0.81727
+    s7:    0.81712 / 0.81725
+    s2025: 0.81727 / 0.81768
+    s5:    0.81671 / 0.81738
+    s11:   0.81739 / 0.81784
+    s777:  0.81681 / 0.81681
+  Blend bake-off winner: A_wg0.5_wl0.5 (avg of per-seed hybrids, w_geo=0.5,
+    w_lgbm=0.5) = 0.82116
+  FINAL: 0.82116 BEATS bar 0.81556 (+0.00560). submissions/iter13.csv ready.
+  Public conversion watch: recent CV gains converted at ~0.6x; 0.0056 CV gain
+  projects to roughly +0.003 public -> ~0.708. Leader 0.74293.
+
+NEXT RECOMMENDATIONS (if iter13 public disappoints):
+  1. The v3 battery worked; run a v4 battery on residual errors (per-fold error
+     analysis to target weak segments).
+  2. Seed count 6 -> 10 for variance reduction (cheap, ~+0.0005).
+  3. Try CatBoost with the v3 features at depth 8 (depth-8 was tested on 319
+     feats only; new features may interact differently).
+  4. Pseudo-residual stacking: train a small model on LGBM residuals.
