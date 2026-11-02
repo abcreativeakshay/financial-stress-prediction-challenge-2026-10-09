@@ -1,0 +1,492 @@
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/iter6.py:229: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[k] = v
+features: 279
+seed 42: training XGBoost...
+  xgb seed 42 fold 0: best_iter=798
+  xgb seed 42 fold 1: best_iter=598
+  xgb seed 42 fold 2: best_iter=674
+  xgb seed 42 fold 3: best_iter=527
+  xgb seed 42 fold 4: best_iter=670
+seed 42: XGB done, comb=0.80896
+seed 7: training XGBoost...
+  xgb seed 7 fold 0: best_iter=694
+  xgb seed 7 fold 1: best_iter=1009
+  xgb seed 7 fold 2: best_iter=653
+  xgb seed 7 fold 3: best_iter=751
+  xgb seed 7 fold 4: best_iter=698
+seed 7: XGB done, comb=0.80878
+seed 2025: training XGBoost...
+  xgb seed 2025 fold 0: best_iter=791
+  xgb seed 2025 fold 1: best_iter=651
+  xgb seed 2025 fold 2: best_iter=653
+  xgb seed 2025 fold 3: best_iter=689
+  xgb seed 2025 fold 4: best_iter=577
+seed 2025: XGB done, comb=0.80787
+lgbm     seed-avg comb=0.81353
+catboost seed-avg comb=0.81306
+xgb      seed-avg comb=0.81141
+
+Blend candidates (OOF combined):
+  arith_lgbm0.5_catboost0.5          LL=0.24684 AUC=0.90702 comb=0.81471
+  hybrid0.3geo_lgbm_catboost         LL=0.24684 AUC=0.90701 comb=0.81470
+  iter9_hybrid_lgbm_cb               LL=0.24684 AUC=0.90701 comb=0.81470
+  hybrid0.5geo_lgbm_catboost         LL=0.24685 AUC=0.90700 comb=0.81469
+  geo_lgbm_catboost                  LL=0.24687 AUC=0.90697 comb=0.81467
+  arith_lgbm0.7_catboost0.3          LL=0.24695 AUC=0.90690 comb=0.81459
+  arith_lgbm0.3_catboost0.7          LL=0.24717 AUC=0.90674 comb=0.81439
+  nm3w_0.33_0.33_0.33                LL=0.24739 AUC=0.90665 comb=0.81423
+  geo3                               LL=0.24743 AUC=0.90657 comb=0.81417
+  arith_catboost0.7_xgb0.3           LL=0.24781 AUC=0.90631 comb=0.81384
+  arith_catboost0.5_xgb0.5           LL=0.24792 AUC=0.90627 comb=0.81376
+  hybrid0.3geo_catboost_xgb          LL=0.24793 AUC=0.90625 comb=0.81374
+  hybrid0.5geo_catboost_xgb          LL=0.24794 AUC=0.90623 comb=0.81373
+  geo_catboost_xgb                   LL=0.24798 AUC=0.90617 comb=0.81368
+  arith_lgbm0.7_xgb0.3               LL=0.24825 AUC=0.90578 comb=0.81336
+  arith_catboost0.3_xgb0.7           LL=0.24851 AUC=0.90577 comb=0.81320
+  geo_lgbm_xgb                       LL=0.24860 AUC=0.90550 comb=0.81304
+  hybrid0.5geo_lgbm_xgb              LL=0.24861 AUC=0.90551 comb=0.81303
+  hybrid0.3geo_lgbm_xgb              LL=0.24862 AUC=0.90551 comb=0.81303
+  arith_lgbm0.5_xgb0.5               LL=0.24862 AUC=0.90551 comb=0.81303
+  arith_lgbm0.3_xgb0.7               LL=0.24918 AUC=0.90507 comb=0.81252
+
+FINAL: arith_lgbm0.5_catboost0.5 OOF comb=0.81471 (below iter9 bar 0.81472)
+Below bar: iter10.csv NOT written.
+EXIT:0

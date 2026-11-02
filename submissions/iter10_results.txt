@@ -1,0 +1,23 @@
+seeds: [42, 7, 2025]
+  arith_lgbm0.5_catboost0.5          LL=0.24684 AUC=0.90702 comb=0.81471
+  hybrid0.3geo_lgbm_catboost         LL=0.24684 AUC=0.90701 comb=0.81470
+  iter9_hybrid_lgbm_cb               LL=0.24684 AUC=0.90701 comb=0.81470
+  hybrid0.5geo_lgbm_catboost         LL=0.24685 AUC=0.90700 comb=0.81469
+  geo_lgbm_catboost                  LL=0.24687 AUC=0.90697 comb=0.81467
+  arith_lgbm0.7_catboost0.3          LL=0.24695 AUC=0.90690 comb=0.81459
+  arith_lgbm0.3_catboost0.7          LL=0.24717 AUC=0.90674 comb=0.81439
+  nm3w_0.33_0.33_0.33                LL=0.24739 AUC=0.90665 comb=0.81423
+  geo3                               LL=0.24743 AUC=0.90657 comb=0.81417
+  arith_catboost0.7_xgb0.3           LL=0.24781 AUC=0.90631 comb=0.81384
+  arith_catboost0.5_xgb0.5           LL=0.24792 AUC=0.90627 comb=0.81376
+  hybrid0.3geo_catboost_xgb          LL=0.24793 AUC=0.90625 comb=0.81374
+  hybrid0.5geo_catboost_xgb          LL=0.24794 AUC=0.90623 comb=0.81373
+  geo_catboost_xgb                   LL=0.24798 AUC=0.90617 comb=0.81368
+  arith_lgbm0.7_xgb0.3               LL=0.24825 AUC=0.90578 comb=0.81336
+  arith_catboost0.3_xgb0.7           LL=0.24851 AUC=0.90577 comb=0.81320
+  geo_lgbm_xgb                       LL=0.24860 AUC=0.90550 comb=0.81304
+  hybrid0.5geo_lgbm_xgb              LL=0.24861 AUC=0.90551 comb=0.81303
+  hybrid0.3geo_lgbm_xgb              LL=0.24862 AUC=0.90551 comb=0.81303
+  arith_lgbm0.5_xgb0.5               LL=0.24862 AUC=0.90551 comb=0.81303
+  arith_lgbm0.3_xgb0.7               LL=0.24918 AUC=0.90507 comb=0.81252
+FINAL: arith_lgbm0.5_catboost0.5 OOF comb=0.81471 (iter9 bar 0.81472)
