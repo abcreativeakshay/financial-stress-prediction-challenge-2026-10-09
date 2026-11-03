@@ -3,14 +3,52 @@
 Date: 2026-11-03. Context: iter15's v5 battery failed (0/79 kept by greedy OOF
 selection); the 20-seed blend finishing ~10-11 PM IST tonight is seed-gains only
 (CV ~0.826-0.828, public ~0.725-0.728 projected). Leader 0.74293, gap ~0.018.
-V6 is the next real lever. Battery code ready at `src/v6_battery.py` (107
+V6 is the next real lever. Battery code ready at `src/v6_battery.py` (116
 candidates, all finite/non-constant, train/test distributions sane).
 
-## 1. Zindi forum research
+## 0. CRITICAL: the data is a customer panel — our CV is optimistic
 
-Status: research agent dispatched; findings to be appended here.
-(Preliminary: no public notebooks found yet for this October-2026 edition;
-ideas below are derived from our own autopsy. Update when forum report lands.)
+Verified on October data (2026-11-03):
+- Train = **10,000 customers × 4 snapshots** (40,000 rows); Test = **10,000
+  customers × 3 snapshots** (30,000 rows). Profile columns
+  (arpu/age/gender/region/smartphone/segment/earning_pattern/activity_rate)
+  factorize to exactly 10,000 identities; **all 10,000 appear in BOTH train
+  and test**. Snapshots are distinct periods (no sliding-window overlap).
+- Base rate exactly **15.0000%**.
+- Distress is an **acute event, not a persistent trait**: P(y=1|prev y=1)=0.1569
+  vs P(y=1|prev y=0)=0.1487 (0.8pp Markov differential). But balance LEVELS
+  correlate 0.67 across a customer's snapshots.
+- Our pipeline uses **row-wise stratified 5-fold** → same customer lands in
+  train AND validation folds → CV is optimistic (0.82543) and misranks ideas.
+  The August Top-25 solution used **StratifiedGroupKFold on customer** and
+  their CV matched their LB; ours doesn't match ours. **Every idea we've
+  screened (including v5's 0/79) was ranked by a biased validator.**
+- Fix: rebuild validation on customer groups before screening v6. Also add
+  strictly-past-only longitudinal features later (per-customer lag diffs).
+
+## 1. Zindi forum / public-solution research
+
+Forum is login-gated and quiet for October; no winner writeups exist
+mid-competition. Gold came from **August-edition GitHub repos** (identical
+40k/30k data shape), including a Top-25 solution (ROC AUC 0.920156,
+LL 0.230760; on our metric scale ≈0.7354 — only 0.012 above us, 0.0075 below
+the October leader) and a massive experiment battery. Key ideas we HAVEN'T
+tried, ranked:
+  A. **Customer-grouped CV** (above) — highest leverage, fixes idea ranking.
+  B. **Asymmetric CatBoost hedge**: scale_pos_weight=1.35, then exact unbias
+     `z_true = z_raw − ln(1.35)`; blend ~0.25-0.3. Protects the minority tail
+     (log-loss punishes near-zero positive predictions catastrophically).
+  C. **Monotone-constrained LightGBM** (burn_rate ↑, buffer ↓) as regularizer.
+  D. **Nested simplex meta-blend** (SLSQP, non-negative, minimize OOF LL).
+  E. **Cross-fitted Platt + Brentq base-rate alignment to 0.15**, clip
+     [0.0025, 0.9975] (both strong teams converge on this; base rate is
+     exactly stationary).
+  F. **In-fold top-K pruning** (K≈220 via shallow CatBoost; our 399 may dilute).
+  G. **Acute-shock features** — partially incorporated as v6 Family H.
+  H. Cross-sectional percentile ranks (overlaps v6 Family B — validates it).
+  I. TruncatedSVD-14 embeddings; J. deep tabular (TabM/RealMLP) as ≤5% add-ons;
+     K. binned-risk component; L. log-stress transforms.
+Deep learning was extensively screened by others — GBDTs remain the winners.
 
 ## 2. Residual autopsy — iter14's 10-seed hybrid blend OOF (CV 0.82543)
 
@@ -52,7 +90,7 @@ v5 (79 candidates: inact×X, seg×X, accelerations, robust z-scores) was the
 same mask×ratio/slope family as v4. Greedy OOF selection kept 0/79 — the model
 already spans that subspace. v6 uses fundamentally different transforms.
 
-## 3. V6 battery design (107 candidates, `src/v6_battery.py`)
+## 3. V6 battery design (116 candidates, `src/v6_battery.py`)
 
 All features unsupervised (no target use). Quantile cutoffs and peer stats fit
 on TRAIN, applied to test. Tested: all finite, non-constant, sane tr/te stats.
@@ -92,6 +130,13 @@ on TRAIN, applied to test. Tested: all finite, non-constant, sane tr/te stats.
 - paybill-share-of-bills slope (channel migration), cash-vs-digital share m1+slope
 - bank top-up slope/share, net bank flow (transfer_from_bank − withdraw)
 
+### Family H — acute-shock detectors (9; from August Top-25: distress is acute)
+- deficit acceleration `(d1−d2)−(d2−d3)`, balance jerk (3rd difference)
+- acute weekly runway `(bal_m1+1)/(max(0,weekly burn)+1)`
+- lumpy-inflow ratio (largest receipt / total inflow)
+- per-channel dormancy (months since last activity): withdraw/deposit/received/paybill
+- inflow-collapse count (deposit/received/bank channels <0.7× recent mean)
+
 ### Family G — hard-regime flags (5; fresh)
 - HVC × volatile / sparse / low-activity (HVC-relative thresholds)
 - hidden stress: ok-balance + inflow cliff; high-arpu + inactive
@@ -126,15 +171,23 @@ family's "time since peak" is unlike anything in v1-v5.)
 
 ## 5. Execution plan (when iter15 blend finishes ~10-11 PM IST)
 
-1. Run greedy forward OOF selection of the 107 v6 candidates on the iter15
-   399-feature base (same protocol as v1-v5: seed-42 LGBM+CatBoost hybrid,
-   keep-if-beats-bar). Expect the shape family to survive first.
-2. If kept features beat 0.82543: rebuild full 20-seed hybrid on 399+v6-kept,
-   submit as iter16 (9 daily slots remain for Nov 3; quota resets 05:30 IST).
-3. If v6 also fails: next levers are (a) member-disagreement exploitation —
-   the top-disagreement quintile is 38.7% positive, suggesting a learned
-   nonlinear combiner; (b) target-encoded aggregates with proper OOF handling;
-   (c) forum ideas (pending).
+0. **FIRST: fix validation.** Rebuild the OOF harness on StratifiedGroupKFold
+   by customer (10k groups). Re-score the current 399-feature blend under
+   honest CV to get the true baseline (expect below 0.82543). Re-screening
+   old ideas under honest CV is optional; screen v6 under honest CV.
+1. Run greedy forward OOF selection of the 116 v6 candidates on the 399-feature
+   base (same protocol as v1-v5 but customer-grouped: seed-42 LGBM+CatBoost
+   hybrid, keep-if-beats-bar). Expect the shape family to survive first.
+2. If kept features beat the honest bar: rebuild full 20-seed hybrid on
+   399+v6-kept, apply Platt+Brentq base-rate alignment (0.15) + clip
+   [0.0025, 0.9975], submit as iter16 (9 daily slots remain for Nov 3; quota
+   resets 05:30 IST).
+3. Pipeline upgrades to stack after v6 (from forum research): asymmetric
+   CatBoost hedge (spw=1.35, unbias), monotone LGBM, nested simplex blend,
+   in-fold top-K pruning, TruncatedSVD-14, TabM ≤5% add-on.
+4. If v6 also fails: next lever is member-disagreement exploitation — the
+   top-disagreement quintile is 38.7% positive, suggesting a learned nonlinear
+   combiner over member outputs.
 
 ## 6. Files
 - `src/v6_battery.py` — battery code (tested, ready)

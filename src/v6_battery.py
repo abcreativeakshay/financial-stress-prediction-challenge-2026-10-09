@@ -290,6 +290,55 @@ def add_features_v6(tr, te):
     add("v6_netbankflow_m1", nbf[:, 0], nbfte[:, 0])
     add("v6_netbankflow_slope", slope(nbf), slope(nbfte))
 
+    # ============ FAMILY H: acute-shock detectors (from Top-25 August solution) ============
+    # distress is an acute transactional event (Markov diff only 0.8pp), not a
+    # persistent trait -> second differences / collapse counts / runway
+    deficit = outflow - inflow
+    deficitte = outflowte - inflowte
+    d1, d2, d3 = deficit[:, 0], deficit[:, 1], deficit[:, 2]
+    d1te, d2te, d3te = deficitte[:, 0], deficitte[:, 1], deficitte[:, 2]
+    add("v6_shock_deficit_accel", (d1 - d2) - (d2 - d3),
+        (d1te - d2te) - (d2te - d3te))
+    add("v6_shock_bal_jerk",
+        b[:, 0] - 3 * b[:, 1] + 3 * b[:, 2] - b[:, 3],
+        bte[:, 0] - 3 * bte[:, 1] + 3 * bte[:, 2] - bte[:, 3])
+    # acute weekly runway: (bal_m1+1) / (max(0, net weekly burn)+1)
+    burn = np.maximum(outflow[:, 0] - inflow[:, 0], 0) / 4.0
+    burnte = np.maximum(outflowte[:, 0] - inflowte[:, 0], 0) / 4.0
+    add("v6_shock_runway_wk", (b[:, 0] + 1) / (burn + 1),
+        (bte[:, 0] + 1) / (burnte + 1))
+    # lumpy inflow: single largest receipt / total inflow (windfall dependence)
+    lump = hi["received"][:, 0] / np.maximum(inflow[:, 0], 1.0)
+    lumpte = hite["received"][:, 0] / np.maximum(inflowte[:, 0], 1.0)
+    add("v6_shock_lumpy_inflow", lump, lumpte)
+    # per-channel dormancy: months since last nonzero volume (0 = active in m1)
+    for ch, v_, vte_ in [("withdraw", vol["withdraw"], volte["withdraw"]),
+                         ("deposit", vol["deposit"], volte["deposit"]),
+                         ("received", vol["received"], volte["received"]),
+                         ("paybill", vol["paybill"], volte["paybill"])]:
+        nz = (v_ > 0).astype(int)
+        nzte = (vte_ > 0).astype(int)
+        # argmax on reversed gives distance from m1; handle all-zero -> 6
+        dor = np.full(v_.shape[0], 6.0)
+        dorte = np.full(vte_.shape[0], 6.0)
+        for i in range(6):
+            m = (nz[:, i] == 1) & (dor == 6)
+            dor[m] = i
+            mte = (nzte[:, i] == 1) & (dorte == 6)
+            dorte[mte] = i
+        add(f"v6_shock_dormant_{ch}", dor, dorte)
+    # inflow-collapse count: key inflow channels dropping <0.7x q1->q2 style
+    # (m1 vs mean(m2,m3) per channel, count of collapses)
+    coll = np.zeros(tr.shape[0])
+    collte = np.zeros(te.shape[0])
+    for ch in ["deposit", "received", "transfer_from_bank"]:
+        v_, vte_ = tv[ch], tvte[ch]
+        hist = v_[:, 1:4].mean(axis=1)
+        histte = vte_[:, 1:4].mean(axis=1)
+        coll += ((v_[:, 0] < 0.7 * hist) & (hist > 0)).astype(float)
+        collte += ((vte_[:, 0] < 0.7 * histte) & (histte > 0)).astype(float)
+    add("v6_shock_inflow_collapse_ct", coll, collte)
+
     # ============ FAMILY G: hard-regime flags (fresh) ============
     bal_cv = cv(b)
     bal_cvte = cv(bte)
