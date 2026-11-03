@@ -1,0 +1,4 @@
+ITERATION 15 (iter15) results
+bar (iter14 10-seed): 0.82543
+FINAL OOF combined=0.82552 BEATS 0.82543
+spec: {"kind": "hybrid:A_wg0.5_wl0.6", "blend": "A_wg0.5_wl0.6", "seeds": [42, 7, 2025, 5, 11, 777, 99, 1234, 2024, 31337, 123, 456, 789, 2026, 55555], "feats": 399, "cb_cfg": {"depth": 8, "learning_rate": 0.03, "iterations": 2000, "l2_leaf_reg": 3.0}, "n15": true}
