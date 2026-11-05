@@ -1,0 +1,7 @@
+ITERATION 18 results (HONEST customer-grouped CV)
+iter16 bar: 0.82557
+RealMLP (2 seeds, pytabkit defaults): OOF comb=0.81696
+corr(RealMLP OOF, iter16 OOF)=0.9651
+FINAL honest OOF combined=0.82568 BEATS 0.82557 at w=0.10
+sweep: {'0.05': 0.8256567021600545, '0.1': 0.8256752862522517, '0.15': 0.8256371675920675}
+spec: (1-w)*iter16_A_wg0.5_wl0.4 + w*RealMLP seeds=[42, 7] feats=439

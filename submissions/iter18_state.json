@@ -1,0 +1,1 @@
+{"rmlp_seeds_done": [7, 42], "rmlp_oof_comb": 0.8136589418643447, "corr_rmlp_iter16": 0.9650520833374965, "sweep": {"0.05": 0.8256567021600545, "0.1": 0.8256752862522517, "0.15": 0.8256371675920675}, "best_w": 0.1, "best_comb": 0.8256752862522517, "path": "/home/hatch/workspace/financial-stress-prediction-challenge-2026-10-09/src/../submissions/iter18.csv"}
