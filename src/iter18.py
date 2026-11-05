@@ -39,6 +39,7 @@ BAR16 = 0.8255744471325221            # iter16 honest OOF comb (A_wg0.5_wl0.4)
 RMLP_SEEDS = [42, 7]                  # 2 seeds; seed 42 first, 7 if time allows
 W_GRID = [0.05, 0.10, 0.15]
 STATE18 = os.path.join(OUT, "iter18_state.json")
+_TORCH_THREADS_SET = False
 
 
 def save_state(st):
@@ -79,8 +80,12 @@ def make_realmlp(seed, n_epochs=None):
     """
     from pytabkit.models.sklearn.sklearn_interfaces import RealMLP_TD_Classifier
     import torch
-    torch.set_num_threads(4)
-    torch.set_num_interop_threads(2)
+    global _TORCH_THREADS_SET
+    if not _TORCH_THREADS_SET:
+        # set_num_interop_threads errors if called twice in one process
+        torch.set_num_threads(4)
+        torch.set_num_interop_threads(2)
+        _TORCH_THREADS_SET = True
     kw = dict(device="cpu", random_state=seed, n_cv=1, n_threads=4,
               verbosity=0, val_metric_name="cross_entropy",
               batch_size="auto", use_early_stopping=True)
