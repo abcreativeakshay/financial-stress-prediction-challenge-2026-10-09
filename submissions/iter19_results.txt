@@ -1,0 +1,7 @@
+ITERATION 19 results (HONEST customer-grouped CV)
+iter18 bar: 0.82568
+up-LGBM (w_hvc=2.5, 4 seeds): OOF comb=0.82368 -- DEAD, all blend weights below bar (best w=0.05 -> 0.82567); HVC LL worse than base (0.3261 vs 0.3218); corr 0.9940
+specialist HVC OOF comb=0.77827 (base18 HVC 0.75702); 4 seeds, top-120 gain feats, num_leaves=15
+sweep_b extended: beta 0.50->0.82719, 0.60->0.82737, 0.70->0.82752, 0.80->0.82763, 0.90->0.82769 (BEST), 1.00->0.82767
+FINAL honest OOF combined=0.82769 BEATS 0.82568 at w_A=0.00 beta_B=0.90
+spec: iter18 base; HVC rows (1-beta)*base + beta*specialist; seeds=[42, 7, 2025, 5] feats=439 (spec top-120)
